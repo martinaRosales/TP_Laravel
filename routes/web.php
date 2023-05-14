@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::view('/', 'home')->name('home');
+Route::view('/video','video')->name('video');
