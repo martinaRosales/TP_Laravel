@@ -51,6 +51,9 @@
                         <a class="nav-link buttonNav" href="/video" name="video">Video</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link buttonNav" href="/tablaPaginada" name="tabla">Tabla paginada</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link buttonNav" href="/bancoImagenes" name="bancoImagenes">Banco de imágenes</a>
                     </li>
                     <button id="darkBtn" class="btn rounded-fill"><i id="icon" class="bi bi-moon-fill"></i></button>
