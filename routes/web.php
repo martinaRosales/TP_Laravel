@@ -21,3 +21,5 @@ Route::view('/', 'home')->name('home');
 Route::view('/video','video')->name('video');
 Route::view('/tablaPaginada','tablaPaginada')->name('tabla');
 Route::view('/bancoImagenes', 'imgBank')->name('imagenes');
+Route::view('/cargarComp', 'crear')->name('crear');
+Route::view('/timer', 'timer')->name('timer');

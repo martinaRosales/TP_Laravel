@@ -10,6 +10,7 @@
 import './darkMode.js'
 import './tablaPaginada.js';
 import './pagination.js'
+import './validarForm2.js'
 
 
 function visualizarComp() {
