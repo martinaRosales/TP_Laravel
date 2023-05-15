@@ -65,7 +65,7 @@
     </nav>
 
     <!-- Contenido de cada seccion -->
-    <div class="container">
+    <div class="container p-2">
         @yield('contenido')
     </div>
 
