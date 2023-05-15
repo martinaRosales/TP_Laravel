@@ -20,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'home')->name('home');
 Route::view('/video','video')->name('video');
 Route::view('/tablaPaginada','tablaPaginada')->name('tabla');
+Route::view('/bancoImagenes', 'imgBank')->name('imagenes');
