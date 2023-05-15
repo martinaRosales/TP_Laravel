@@ -57,6 +57,8 @@ const showModal = (json) => {
         icon: 'info',
         title: title,
         showCloseButton: true,
+        html: `<p><b>AlbumId:</b> ${albumId}<br>
+                  <b>ID:</b> ${id}<br>
                   <b>Titulo:</b> ${title}<br>
                   <b>Url:</b> ${url}<br>
                   <b>Thumbnail url:</b> ${thumbnailUrl}</p>`
