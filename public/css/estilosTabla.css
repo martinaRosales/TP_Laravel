@@ -1,0 +1,19 @@
+ .filtros-tabla {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     margin-top: 3rem;
+ }
+
+ #filtro-select{
+    width: 10rem;
+ }
+
+ #filtro-busqueda{
+    width: 15rem;
+ }
+
+ #boton-select {
+     background-color: #f8f9fa;
+     border-color:  #343a40;
+     width: auto;
+ }

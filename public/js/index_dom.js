@@ -1,13 +1,15 @@
-import Competidor from './Competidor.js';
-import competidores from './competidores.js';
-import { verCompetidor, cargarCompetidores } from './competidores.js';
-import validation from './validation.js';
-import { INPUT_VALIDADOS } from './script.js';
-import { inputs } from './script.js';
-import errores from "./errores.js";
-import { cargarTabla } from './cargarTabla.js';
-import mostrarPais from './selectPais.js';
+// import {Competidor} from './Competidor.js';
+// import {competidores} from './competidores.js';
+// import { verCompetidor, cargarCompetidores } from './competidores.js';
+// import {validation} from './validation.js';
+// import { INPUT_VALIDADOS } from './script.js';
+// import { inputs } from './script.js';
+// import {errores} from "./errores.js";
+// import { cargarTabla } from './cargarTabla.js';
+// import {mostrarPais} from './selectPais.js';
 import './darkMode.js'
+import './tablaPaginada.js';
+import './pagination.js'
 
 
 function visualizarComp() {
