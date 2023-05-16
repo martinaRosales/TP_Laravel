@@ -17,9 +17,29 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+// Home
 Route::view('/', 'home')->name('home');
+
 Route::view('/video','video')->name('video');
 Route::view('/tablaPaginada','tablaPaginada')->name('tabla');
 Route::view('/bancoImagenes', 'imgBank')->name('imagenes');
 Route::view('/cargarComp', 'crear')->name('crear');
 Route::view('/timer', 'timer')->name('timer');
+
+// Support folder
+Route::get( '/about', function() {
+  return view( 'support.about' );
+})->name( 'about' );
+
+Route::get( '/help', function() {
+  return view( 'support.help' );
+})->name( 'help' );
+
+// Auth folder
+Route::get( '/login', function() {
+  return view( 'auth.login' );
+})->name( 'login' );
+
+Route::get( '/logout', function() {
+  return view( 'auth.logout' );
+})->name( 'logout' );
