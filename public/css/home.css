@@ -1,7 +1,19 @@
-#carouselExampleControls{
-    width: 35rem;
-    height: 26.5rem;
-}
+@media only screen and (min-width:320px) and (max-width:480px){
+    #carouselExampleControls{
+        width: 15rem;
+        height: 11rem;
+    }
+
+    }
+
+    @media only screen and (min-width:960px) {
+        #carouselExampleControls{
+            width: 35rem;
+            height: 26.5rem;
+        }
+
+        }
+
 
 .element-background{
     width: fit-content;
