@@ -30,9 +30,9 @@
 </div>
 
 <br>
-
-
+<hr>
 <!-- info -->
+<h2 class=" fs-3 p-2"> Teoria Trabajo Practico </h2>
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
@@ -79,6 +79,7 @@
     </div>
   </div>
 
+  
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
