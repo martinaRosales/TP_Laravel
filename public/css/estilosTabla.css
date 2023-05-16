@@ -1,12 +1,14 @@
-@media (max-width: 600px){
+@media only screen and (min-width:320px) and (max-width:480px){
     .filtros-tabla {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin-top: 3rem;
     }
-}
 
-@media  (max-width: 1700px){
+    }
+   
+
+ @media only screen and (min-width:960px) {
     .filtros-tabla {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -20,7 +22,10 @@
  #filtro-busqueda{
     width: 15rem;
  }
-}
+
+    }
+
+
 
  #boton-select {
      background-color: #f8f9fa;
