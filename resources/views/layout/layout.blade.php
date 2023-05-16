@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{!! asset('css/styles.css') !!}">
     <link rel="stylesheet" href="{!!asset('css/pagination.css')!!}">
     <link rel="stylesheet" href="{!!asset('css/estilosTabla.css')!!}">
+    <link rel="stylesheet" href="{!!asset('css/home.css')!!}">
 
     <style>
         .nav-pills .nav-link.active,
