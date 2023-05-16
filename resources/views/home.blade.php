@@ -5,6 +5,7 @@
 @endsection
 
 @section('contenido')
+<div class="element-background">
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -25,5 +26,6 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
 </div>
 @endsection
