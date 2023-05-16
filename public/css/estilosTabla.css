@@ -1,9 +1,18 @@
- .filtros-tabla {
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     margin-top: 3rem;
- }
+@media (max-width: 600px){
+    .filtros-tabla {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 3rem;
+    }
+}
 
+@media  (max-width: 1700px){
+    .filtros-tabla {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 3rem;
+    }
+    
  #filtro-select{
     width: 10rem;
  }
@@ -11,6 +20,7 @@
  #filtro-busqueda{
     width: 15rem;
  }
+}
 
  #boton-select {
      background-color: #f8f9fa;
