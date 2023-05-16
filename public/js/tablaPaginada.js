@@ -207,7 +207,7 @@ const botonSelect = document.getElementById("boton-select")
 
 botonSelect.addEventListener('click', () => {
     let arrayCompetidoresFiltrados = new Array()
-    arrayCompetidoresFiltrados = filterByParameter(competidores);
+    arrayCompetidoresFiltrados = filterByParameter(arrayCompetidores);
     tablaCompetidores(arrayCompetidoresFiltrados)
 
 });
