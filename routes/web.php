@@ -43,3 +43,23 @@ Route::get( '/login', function() {
 Route::get( '/logout', function() {
   return view( 'auth.logout' );
 })->name( 'logout' );
+
+Route::get('/materia',function(){
+  return [
+    'materiaYTema'=>[
+      'PWD',
+      'Laravel',
+      'practicamos con las rutas de Laravel'
+    ]
+    ];
+})->name('materia');
+
+Route::get('/materia_',function(){
+  return view('/materia',[
+    'materiaYTema'=>[
+      'PWD',
+      'Laravel',
+      'practicamos con las rutas de Laravel'
+    ]
+    ]);
+})->name('materia');
